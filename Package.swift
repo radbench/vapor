@@ -1,7 +1,7 @@
 // swift-tools-version:5.2
 import PackageDescription
 
-//VS
+//VS2
 let package = Package(
     name: "vapor",
     platforms: [
@@ -22,7 +22,7 @@ let package = Package(
 
         // 💻 APIs for creating interactive CLI tools.
 //        .package(url: "https://github.com/vapor/console-kit.git", from: "4.0.0"),
-        .package(url: "https://github.com/radbench/console-kit.git", .branch("master")),
+        .package(url: "https://github.com/radbench/console-kit.git", .branch("vs")),
 
         // 🔑 Hashing (BCrypt, SHA2, HMAC), encryption (AES), public-key (RSA), and random data generation.
         .package(url: "https://github.com/apple/swift-crypto.git", from: "1.0.0"),
